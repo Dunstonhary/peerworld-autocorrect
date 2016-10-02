@@ -1,0 +1,15 @@
+language: python
+python:
+- '3.5'
+install:
+- pip install tornado
+- pip install nose
+- pip install nose-cov
+- pip install python-coveralls
+- pip install pep8
+
+script:
+- pep8 app/
+
+after_success:
+- coveralls
