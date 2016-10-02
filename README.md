@@ -1,7 +1,7 @@
 ##Peerworld-Autocorrect
 
 An autocorrect module built on top of bayesian probilistic model.
-Check out the live demo at [here]("http://autocorrect.herokuapp.com")
+Check out the live demo at [here](http://autocorrect.herokuapp.com)
 
 ##Using it through REST Interface
 
